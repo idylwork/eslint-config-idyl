@@ -1,3 +1,9 @@
-import eslintConfig from './eslint.config.mjs'
+import recommended from './src/recommended'
+import override from './src/override'
 
-export default eslintConfig
+export default [
+  ...recommended,
+  override,
+]
+
+export { override }

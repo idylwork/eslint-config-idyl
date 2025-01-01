@@ -1,13 +1,14 @@
 {
   "name": "@idylwork/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personal ESLint shareable config",
   "publishConfig": {
     "access": "public"
   },
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "lint": "npx eslint --fix",
+    "lint": "eslint ./test --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
